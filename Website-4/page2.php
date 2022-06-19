@@ -1,8 +1,8 @@
 <?php
-session_start();
+session_start(); // Starting session
 
-$name = $_SESSION["name"];
-$email = $_SESSION["email"];
+$name = $_SESSION["name"]; // Declaring session variable
+$email = $_SESSION["email"]; // Declaring session variable
 
 ?>
 

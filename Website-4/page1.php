@@ -1,8 +1,8 @@
 <?php
-if (isset($_POST["submit"])) {
+if (isset($_POST["submit"])) { // Triggers session start on submit
   session_start(); //Start session
-  $_SESSION["name"] = htmlentities($_POST["name"]);
-  $_SESSION["email"] = htmlentities($_POST["email"]);
+  $_SESSION["name"] = htmlentities($_POST["name"]); // Setting session value from input
+  $_SESSION["email"] = htmlentities($_POST["email"]); // Setting session value from input
 
   header("Location: page2.php"); // Redirect to other page
 }

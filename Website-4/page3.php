@@ -1,8 +1,8 @@
 <?php
 session_start();
 
-$name = isset($_SESSION["name"]) ? $_SESSION["name"] : "Guest";
-$email = isset($_SESSION["email"]) ? $_SESSION["email"] : "Not Subscribed";
+$name = isset($_SESSION["name"]) ? $_SESSION["name"] : "Guest"; // Declaring default value for session 
+$email = isset($_SESSION["email"]) ? $_SESSION["email"] : "Not Subscribed"; // Declaring default value for session 
 ?>
 
 <!DOCTYPE html>
