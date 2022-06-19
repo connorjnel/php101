@@ -10,8 +10,6 @@ $server = [
   "Current Page" => $_SERVER["PHP_SELF"], // Current Page / useful for form action
   "Script Name" => $_SERVER["SCRIPT_NAME"], // Current script location
   "Absolute Path" => $_SERVER["SCRIPT_FILENAME"], // Absolute path to current page
-
-
 ];
 
 // print_r($server) // Print out entire array
