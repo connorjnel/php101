@@ -4,7 +4,7 @@
 
 // echo date("d"); // Show date - DAY
 // echo date("m"); // Show date - MONTH
-// echo date("Y"); // Show date - YEAR
+// echo date("Y"); // Show date - YEAR 
 // echo date("l"); // Show date - DAY OF WEEK
 
 // echo date("Y/m/d"); // Combining date output
